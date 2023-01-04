@@ -8,7 +8,11 @@ module.exports = {
       laptop: "976px",
       desktop: "1440px",
     },
-    colors: {},
+    colors: {
+      hiperBlack: "#1F202F",
+      black: "#2B2D42",
+      white: "#EDF2F4",
+    },
     extend: {},
   },
   plugins: [],
