@@ -1,9 +1,13 @@
-import Links from "./Links";
+import Links from "./NavLinks"
 
 export default function Navbar() {
   return (
-    <div className="">
-      <img className="w-[60px] h-14" src="../../assets/icons/onigiri.png" alt="Logo" />
+    <div className="m-auto flex w-[80%] h-28 justify-between">
+      <img
+        className="w-[60px] h-14 self-center cursor-pointer"
+        src="../../assets/icons/onigiri.png"
+        alt="Logo"
+      />
       <Links />
     </div>
   )
