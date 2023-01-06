@@ -1,12 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 
-import { Home } from "./pages/home/home.jsx"
-import "./main.css"
+import { Index }  from "./index"
+import "./styles/main.css"
 import "./styles/global.css"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Home />
+    <Index />
   </React.StrictMode>
 )

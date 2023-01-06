@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     screens: {
       mobile: "375px",
-      tablet: "768px",
-      laptop: "976px",
-      desktop: "1440px",
+      tabletPortrait: "768px",
+      tabletLandscape: "1024px",
+      smallDesktop: "1280px",
+      mediumDesktop: "1440px",
+      bigDesktop: "1920",
     },
     colors: {
       hiperBlack: "#1F202F",
@@ -14,7 +16,11 @@ module.exports = {
       white: "#EDF2F4",
       grey: "#8D99AE",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        miniButton: "0 0 20px #8D99AE",
+      },
+    },
   },
   plugins: [],
 }

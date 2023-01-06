@@ -12,3 +12,11 @@
   
   hover:after:w-full;
 }
+
+.miniButtons {
+  @apply w-[150px] h-[50px] bg-hiperBlack duration-300
+
+  hover:shadow-miniButton hover:duration-300
+  
+  hover:scale-110;
+}

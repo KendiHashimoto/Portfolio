@@ -1,19 +1,32 @@
-let items = ["Início", "Sobre", "Skills", "Projetos", "Contato"]
-let links = ["#Início", "#Sobre", "#Skills", "#Projetos", "#Contato"]
-
 export default function Links() {
   return (
     <nav className="flex">
       <ul className="flex gap-10 items-center">
-        {items.map((item, index) => {
-          return (
-            <li key={index}>
-              <a className="nav-links" href="">
-                {item}
-              </a>
-            </li>
-          )
-        })}
+        <li>
+          <a className="nav-links" href="#Início">
+            Início
+          </a>
+        </li>
+        <li>
+          <a className="nav-links" href="#Sobre">
+            Sobre
+          </a>
+        </li>
+        <li>
+          <a className="nav-links" href="#Skills">
+            Skills
+          </a>
+        </li>
+        <li>
+          <a className="nav-links" href="#Projetos">
+            Projetos
+          </a>
+        </li>
+        <li>
+          <a className="nav-links" href="#Contato">
+            Contato
+          </a>
+        </li>
       </ul>
     </nav>
   )
